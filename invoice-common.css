@@ -1,0 +1,269 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+input,
+th,
+td,
+h1,
+p {
+    font-size: 13px;
+    font-family: 'Karla';
+}
+
+h1 {
+    font-size: 15px;
+}
+
+h1 input {
+    display: block-inline;
+    width: auto;
+    min-width: 280px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 auto 0;
+    z-index: 999;
+    background-color: #eee;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0 0 1px 0;
+}
+
+nav .container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+nav .toolbar h1 {
+    font-size: 17px;
+}
+
+nav .toolbar * {
+    display: inline;
+}
+
+nav .toolbar select,
+nav .toolbar button {
+    float: right;
+}
+
+
+#page {
+    width: 800px;
+}
+
+
+#list {
+    clear: both;
+}
+
+#from {
+    float: right;
+}
+
+#to {
+    clear: right;
+    float: left;
+}
+
+#from,
+#to {
+    width: 50%;
+    margin: 50px 0;
+}
+
+#placeholder {
+    clear: both;
+    height: 3em;
+}
+
+
+input {
+
+    border: 0;
+    width: 100%;
+    background: transparent;
+}
+
+html, body {
+    -webkit-print-color-adjust: exact;
+    margin: 0;
+    padding: 0;
+}
+
+
+.icon {
+    background-position: 2px 2px;
+    background-size: 24px;
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 28px;
+    vertical-align: text-bottom;
+}
+
+
+.icon.regno {
+    background-image: url("img/iconmonstr-tag-icon.svg");
+}
+
+
+.icon.person {
+    background-image: url("img/iconmonstr-user-6-icon.svg");
+}
+
+.icon.email {
+    background-image: url("img/iconmonstr-email-2-icon.svg");
+}
+
+
+.icon.address {
+    background-image: url("img/iconmonstr-compass-7-icon.svg");
+}
+
+.icon.web {
+    background-image: url("img/iconmonstr-globe-4-icon.svg");
+}
+
+
+.icon.phone {
+    background-image: url("img/iconmonstr-mobile-phone-6-icon.svg");
+}
+
+/* Item list */
+
+#list {
+    clear: both;
+    width: 100%;
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: solid hidden hidden hidden;
+    border-width: 1px;
+}
+
+#list td,
+#list th {
+    padding: 4px;
+    border: 1px solid #888;
+}
+
+#list .price,
+#list .amount {
+    width: 100px;
+}
+
+#list .quantity {
+    width: 70px;
+}
+
+
+#list th {
+    text-align: center;
+}
+
+#list td.price,
+#list td.quality,
+#list td.amount {
+    text-align: center;
+}
+
+#list td.price input,
+#list td.quantity input {
+    text-align: center;
+    padding-left: 16px; /* compensate for spinner buttons */
+}
+
+
+#vat_percent {
+    display: inline;
+    text-align: center;
+    width: 2.5em;
+}
+
+
+#list tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+#list tr:first-child {
+    background: #e8e8e8;
+}
+
+
+tr {
+    height: 24px;
+}
+
+#padding {
+    padding: 80px 40px;
+}
+
+.fields {
+    width: 240px;
+    float: right;
+}
+
+.fields td.label {
+    width: 130px;
+}
+
+.fields td.value {
+    width: 100px;
+    border-width: 1px;
+    border-color: #888;
+    border-style: hidden hidden solid hidden;
+    text-align: center;
+}
+
+.fields td.value input {
+    width: 100%;
+    text-align: center;
+}
+
+
+.fields .value {
+    text-align: right;
+}
+
+#results {
+    width: 100%;
+}
+
+
+
+footer {
+    margin: auto 40px 40px 40px;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#credentials {
+    width: 100%;
+}
+
+#credentials th {
+    text-align: left;
+    font-weight: normal;
+    width: 100px;
+}

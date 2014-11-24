@@ -154,7 +154,7 @@ $(document).ready(function(e) {
 
 
     var now = new Date();
-    $("#invoice_number").val(1900+now.getYear() + lz(now.getMonth()) + lz(now.getDate()) + "001");
+    $("#invoice_number").val(1900+now.getYear() + lz(now.getMonth()+1) + lz(now.getDate()) + "001");
     $("#invoice_date").val(now.toLocaleDateString("et-EE"));
     
     
